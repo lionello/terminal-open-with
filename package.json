@@ -1,6 +1,6 @@
 {
-  "name": "which-browser",
-  "displayName": "which-browser",
+  "name": "terminal-open-with",
+  "displayName": "terminal-open-with",
   "description": "Customize which browser is used to open links from the terminal window",
   "version": "0.0.1",
   "engines": {

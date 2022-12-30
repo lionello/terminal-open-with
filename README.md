@@ -1,4 +1,4 @@
-# which-browser README
+# terminal-open-with README
 
 By default, links you click in the terminal open with the default browser. This extension allows you to open links in the terminal with a specific browser, depending on the domain of the URL.
 
