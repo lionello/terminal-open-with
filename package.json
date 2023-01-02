@@ -2,6 +2,10 @@
   "name": "terminal-open-with",
   "displayName": "Terminal Open With",
   "description": "Customize which app is used to open links from the terminal window",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lionello/terminal-open-with.git"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.74.0"
@@ -26,7 +30,10 @@
           "type": "array",
           "items": {
             "type": "object",
-            "required": ["glob", "app"],
+            "required": [
+              "glob",
+              "app"
+            ],
             "properties": {
               "glob": {
                 "type": "string",
@@ -36,7 +43,13 @@
               },
               "app": {
                 "type": "string",
-                "enum": ["chrome", "firefox", "edge", "code", "default"],
+                "enum": [
+                  "chrome",
+                  "firefox",
+                  "edge",
+                  "code",
+                  "default"
+                ],
                 "default": "default",
                 "description": "The app to use to open the link. Set to 'default' to use the default app."
               },
@@ -77,6 +90,7 @@
     "@typescript-eslint/eslint-plugin": "^5.45.0",
     "@typescript-eslint/parser": "^5.45.0",
     "@vscode/test-electron": "^2.2.0",
+    "@vscode/vsce": "^2.16.0",
     "esbuild": "^0.16.12",
     "eslint": "^8.28.0",
     "glob": "^8.0.3",
