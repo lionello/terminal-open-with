@@ -1,9 +1,9 @@
 # Change Log
 
-All notable changes to the "terminal-open-with" extension will be documented in this file.
+### 0.0.2
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+Added extension icon: External Link by Colourcreatype from <a href="https://thenounproject.com/browse/icons/term/external-link/" target="_blank" title="External Link Icons">Noun Project</a>
 
-## [Unreleased]
+### 0.0.1
 
-- Initial release
+Initial pre-release of `terminal-open-with`.

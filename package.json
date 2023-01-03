@@ -1,6 +1,7 @@
 {
   "name": "terminal-open-with",
   "displayName": "Terminal Open With",
+  "icon": "images/noun-external-link-4737798.png",
   "description": "Customize which app is used to open links from the terminal window",
   "repository": {
     "type": "git",

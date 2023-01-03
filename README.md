@@ -1,4 +1,4 @@
-# terminal-open-with
+# terminal-open-with ![icon](images/noun-external-link-4737798.png)
 
 ![Visual Studio Marketplace Version (including pre-releases)](https://img.shields.io/visual-studio-marketplace/v/lionello.terminal-open-with?include_prereleases)
 
@@ -25,6 +25,10 @@ A glob can use any of the following wildcards:
 * Currently only supports `chrome`, `edge`, `firefox`, `code`, or `default`.
 
 ## Release Notes
+
+### 0.0.2
+
+Added extension icon: External Link by Colourcreatype from <a href="https://thenounproject.com/browse/icons/term/external-link/" target="_blank" title="External Link Icons">Noun Project</a>
 
 ### 0.0.1
 
