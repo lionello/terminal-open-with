@@ -2,15 +2,15 @@
 
 This extension allows you to open links in the terminal with a specific app or browser, depending on the URL. For example, I use it to always open Google's auth site with Chrome:
 
-\!\[Open in chrome\]\(images/demo.gif\)
+![Open in chrome](images/demo.gif)
 
 ## Extension Settings
 
 This extension contributes the following settings:
 
 * `terminalOpenWith.mappings`: An array of mappings:
-    * Simple glob-app mapping: `{ "glob": "http://localhost**", "app": "name" }`
-    * Or with command-line arguments: `{ "glob": "http://localhost**", "app": "chrome", "args": ["--icognito"] }`
+    * Simple url-app mapping: `{ "glob": "https://g.co/sc", "app": "chrome" }`
+    * Or with wildcards and arguments: `{ "glob": "http://localhost**", "app": "firefox", "args": ["-private"] }`
 
 A glob can use any of the following wildcards:
 
