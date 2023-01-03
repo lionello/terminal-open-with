@@ -11,3 +11,4 @@ vsc-extension-quickstart.md
 /out/
 .direnv/
 .envrc
+node_modules
