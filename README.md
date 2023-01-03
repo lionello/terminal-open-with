@@ -1,4 +1,4 @@
-# terminal-open-with ![icon](images/noun-external-link-4737798.png)
+# terminal-open-with <img src="images/noun-external-link-4737798.png" height=32 alt="icon"/>
 
 ![Visual Studio Marketplace Version (including pre-releases)](https://img.shields.io/visual-studio-marketplace/v/lionello.terminal-open-with?include_prereleases)
 
