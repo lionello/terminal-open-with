@@ -28,6 +28,11 @@ A glob can use any of the following wildcards:
 
 * Currently only supports `chrome`, `edge`, `firefox`, `code`, or `default`.
 
+## Publishing
+
+* Create a Personal Access Token with Marketplace:Manage scope
+* Run `vsce login lionello` followed by `vsce publish minor`
+
 ## Release Notes
 
 ### 0.0.2
