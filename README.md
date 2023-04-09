@@ -4,7 +4,11 @@
 
 This extension allows you to open links in the terminal with a specific app or browser, depending on the URL. For example, I use it to always open Google's auth site with Chrome:
 
-![Open in chrome](images/demo.gif)
+![Open in chrome demo](images/demo.gif)
+
+## Install
+
+Install from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=lionello.terminal-open-with).
 
 ## Extension Settings
 
