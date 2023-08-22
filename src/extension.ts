@@ -42,13 +42,13 @@ export function makeRegExp(mappings: readonly AppMapping[]): RegExp {
 export function getApp(mapping: AppMapping): open.App | undefined {
   switch (mapping.app) {
     case "code":
-      assert(false); // should not be called for "code"
+      assert(false, 'should not be called for "code"');
     case "chrome":
     case "firefox":
     case "edge":
       return { name: open.apps[mapping.app], arguments: mapping.args };
     case "default":
-      assert(mapping.args === undefined); // not supported for "default"
+      assert(mapping.args === undefined, 'not supported for "default"');
       return undefined;
     default:
       return { name: mapping.app, arguments: mapping.args };
@@ -70,11 +70,11 @@ export function activate(context: vscode.ExtensionContext) {
         const matches = [...context.line.matchAll(regexp)];
         return matches.map((match) => {
           const idx = match.findIndex((value, index) => value && index);
-          assert(idx > 0); // at least one group should match
+          assert(idx > 0, "at least one group should match");
           const mapping = mappings[idx - 1];
-          assert(mapping); // should have a corresponding mapping
+          assert(mapping, "should have a corresponding mapping");
           const url = match[idx];
-          assert(url); // should have matched a non-empty url
+          assert(url, "should have matched a non-empty url");
           return {
             startIndex: match.index,
             tooltip: "Open in " + mapping.app,
