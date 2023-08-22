@@ -30,10 +30,18 @@ A glob can use any of the following wildcards:
 
 ## Publishing
 
-* Create a Personal Access Token with Marketplace:Manage scope
+* Create a Personal Access Token with Marketplace:Manage scope on dev.azure.com
 * Run `vsce login lionello` followed by `vsce publish minor`
 
 ## Release Notes
+
+### 0.1.2
+
+Updated NPM dependencies.
+
+### 0.1.1
+
+First release (no changes.)
 
 ### 0.0.2
 

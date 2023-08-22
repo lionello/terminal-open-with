@@ -1,5 +1,9 @@
 # Change Log
 
+### 0.1.2
+
+Updated NPM dependencies.
+
 ### 0.1.1
 
 First release (no changes.)
